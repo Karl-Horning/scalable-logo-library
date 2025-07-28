@@ -1,26 +1,27 @@
-# Scalable Logo Library
+# 🖼️ Scalable Logo Library
 
 ## 📖 Table of Contents
 
-- [Scalable Logo Library](#scalable-logo-library)
+- [🖼️ Scalable Logo Library](#️-scalable-logo-library)
   - [📖 Table of Contents](#-table-of-contents)
-  - [🤓 Introduction](#-introduction)
-  - [📁 Directory Structure](#-directory-structure)
+  - [🤓 Overview](#-overview)
+  - [📁 Project Structure](#-project-structure)
   - [🎯 Usage](#-usage)
   - [🧩 Suggested Integration](#-suggested-integration)
   - [🛠️ Preferred Format](#️-preferred-format)
   - [⚠️ Disclaimer](#️-disclaimer)
-  - [📄 License](#-license)
+  - [📄 Licence](#-licence)
+  - [👤 Author](#-author)
 
 ---
 
-## 🤓 Introduction
+## 🤓 Overview
 
 A growing collection of high-quality logo assets, primarily in SVG format, for reuse across personal and educational tech projects. Logos are categorised by purpose or technology area and prioritise scalability and performance.
 
 ---
 
-## 📁 Directory Structure
+## 📁 Project Structure
 
 ```bash
 src/
@@ -34,56 +35,59 @@ src/
     ├── sites/             # Web platforms and social logos
     ├── software/          # Productivity & design software
     └── universities/      # University and HE branding
-````
+```
 
 ---
 
 ## 🎯 Usage
 
-Use these assets in:
+These assets can be used in:
 
 - Learning technology presentations
 - Documentation or internal guides
 - Portfolios or personal websites
 - UI mockups and prototypes
 
-Please ensure you're respecting any brand usage guidelines associated with third-party logos.
+Please ensure you respect any brand usage guidelines associated with third-party logos.
 
 ---
 
 ## 🧩 Suggested Integration
 
-Clone the repo or add as a submodule in other projects:
+You can clone the repo or add it as a submodule in other projects:
 
 ```bash
 git submodule add https://github.com/Karl-Horning/scalable-logo-library.git assets/logos
 ```
 
-Update your paths as needed depending on the structure of your project.
+Update import paths depending on your project's structure.
 
 ---
 
 ## 🛠️ Preferred Format
 
-Use **SVG** files whenever available for:
+Use **SVG** files whenever possible for:
 
 - Crisp rendering at any size
-- Smaller file size in many cases
-- Easy theming or styling via CSS
+- Smaller file sizes (compared to PNG)
+- Easy styling with CSS
 
 ---
 
 ## ⚠️ Disclaimer
 
-All third-party logos are the property of their respective owners. This repository is maintained for personal and educational use.
-If you represent a brand and would like an asset removed or updated, please open an issue.
+All third-party logos are the property of their respective owners. This repository is maintained for personal and educational use only.
+
+If you represent a brand and would like an asset removed or updated, please [open an issue](https://github.com/Karl-Horning/scalable-logo-library/issues).
 
 ---
 
-## 📄 License
+## 📄 Licence
 
-This project is licensed under the [MIT License](LICENSE).
+MIT © 2025 Karl Horning
 
 ---
+
+## 👤 Author
 
 Made with ❤️ by [Karl Horning](https://github.com/Karl-Horning)
