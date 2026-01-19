@@ -1,27 +1,27 @@
-# 🖼️ Scalable Logo Library
+# Scalable Logo Library
 
-## 📖 Table of Contents
+## Table of Contents
 
-- [🖼️ Scalable Logo Library](#️-scalable-logo-library)
-  - [📖 Table of Contents](#-table-of-contents)
-  - [🤓 Overview](#-overview)
-  - [📁 Project Structure](#-project-structure)
-  - [🎯 Usage](#-usage)
-  - [🧩 Suggested Integration](#-suggested-integration)
-  - [🛠️ Preferred Format](#️-preferred-format)
-  - [⚠️ Disclaimer](#️-disclaimer)
-  - [📄 Licence](#-licence)
-  - [👤 Author](#-author)
+- [Scalable Logo Library](#scalable-logo-library)
+  - [Table of Contents](#table-of-contents)
+  - [Overview](#overview)
+  - [Project Structure](#project-structure)
+  - [Usage](#usage)
+  - [Suggested Integration](#suggested-integration)
+  - [Preferred Format](#preferred-format)
+  - [Disclaimer](#disclaimer)
+  - [Licence](#licence)
+  - [Author](#author)
 
 ---
 
-## 🤓 Overview
+## Overview
 
 A growing collection of high-quality logo assets, primarily in SVG format, for reuse across personal and educational tech projects. Logos are categorised by purpose or technology area and prioritise scalability and performance.
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```bash
 src/
@@ -39,7 +39,7 @@ src/
 
 ---
 
-## 🎯 Usage
+## Usage
 
 These assets can be used in:
 
@@ -52,7 +52,7 @@ Please ensure you respect any brand usage guidelines associated with third-party
 
 ---
 
-## 🧩 Suggested Integration
+## Suggested Integration
 
 You can clone the repo or add it as a submodule in other projects:
 
@@ -64,7 +64,7 @@ Update import paths depending on your project's structure.
 
 ---
 
-## 🛠️ Preferred Format
+## Preferred Format
 
 Use **SVG** files whenever possible for:
 
@@ -74,7 +74,7 @@ Use **SVG** files whenever possible for:
 
 ---
 
-## ⚠️ Disclaimer
+## Disclaimer
 
 All third-party logos are the property of their respective owners. This repository is maintained for personal and educational use only.
 
@@ -82,12 +82,12 @@ If you represent a brand and would like an asset removed or updated, please [ope
 
 ---
 
-## 📄 Licence
+## Licence
 
 MIT © 2025 Karl Horning
 
 ---
 
-## 👤 Author
+## Author
 
 Made with ❤️ by [Karl Horning](https://github.com/Karl-Horning)
