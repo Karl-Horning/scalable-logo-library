@@ -1,78 +1,93 @@
 # Scalable Logo Library
 
-## Table of Contents
+A library of SVG logos covering web development tools, learning management systems, and UK higher education institutions. Maintained for personal use across portfolio and development projects, and open to anyone in the edtech space who needs the same assets.
 
-- [Scalable Logo Library](#scalable-logo-library)
-  - [Table of Contents](#table-of-contents)
-  - [Overview](#overview)
-  - [Project Structure](#project-structure)
-  - [Usage](#usage)
-  - [Suggested Integration](#suggested-integration)
-  - [Preferred Format](#preferred-format)
-  - [Disclaimer](#disclaimer)
-  - [Licence](#licence)
-  - [Author](#author)
+All assets are SVG-only for resolution-independent rendering and easy CSS styling. The package ships `logos.json` — a machine-readable index — so consuming projects can query available logos without hardcoding paths.
 
----
+## Project structure
 
-## Overview
-
-A growing collection of high-quality logo assets, primarily in SVG format, for reuse across personal and educational tech projects. Logos are categorised by purpose or technology area and prioritise scalability and performance.
-
----
-
-## Project Structure
-
-```bash
-src/
-├── ai/                    # Adobe Illustrator (.ai)
-├── png/                   # Raster images (.png)
-├── psd/                   # Photoshop files (.psd)
-└── svg/                   # Scalable Vector Graphics (.svg)
-    ├── development/       # Developer tools & frameworks
-    ├── educational-tools/ # Learning tech tools
-    ├── lms/               # Learning Management Systems
-    ├── sites/             # Web platforms and social logos
-    ├── software/          # Productivity & design software
-    └── universities/      # University and HE branding
+```text
+development/       # Developer tools and frameworks
+educational-tools/ # Learning technology tools
+lms/               # Learning Management Systems
+sites/             # Web platforms and social logos
+software/          # Productivity and design software
+universities/      # University and higher education branding
 ```
 
----
+## Installation
 
-## Usage
+**Via npm (from GitHub):**
 
-These assets can be used in:
+```bash
+npm install github:Karl-Horning/scalable-logo-library
+```
 
-- Learning technology presentations
-- Documentation or internal guides
-- Portfolios or personal websites
-- UI mockups and prototypes
-
-Please ensure you respect any brand usage guidelines associated with third-party logos.
-
----
-
-## Suggested Integration
-
-You can clone the repo or add it as a submodule in other projects:
+**As a Git submodule:**
 
 ```bash
 git submodule add https://github.com/Karl-Horning/scalable-logo-library.git assets/logos
 ```
 
-Update import paths depending on your project's structure.
+## Usage
 
----
+### Bundler (Vite, webpack)
 
-## Preferred Format
+```js
+import reactLogo from "@karl-horning/scalable-logo-library/development/react.svg";
+```
 
-Use **SVG** files whenever possible for:
+Note: bundlers require SVG import support. Vite handles this out of the box; for webpack, configure `asset/resource` or use `@svgr/webpack`.
 
-- Crisp rendering at any size
-- Smaller file sizes (compared to PNG)
-- Easy styling with CSS
+### CSS
 
----
+```css
+.react-icon {
+    background-image: url("node_modules/@karl-horning/scalable-logo-library/development/react.svg");
+}
+```
+
+### HTML (submodule)
+
+```html
+<img src="assets/logos/development/react.svg" alt="React logo" />
+```
+
+## Manifest
+
+`logos.json` indexes every logo with a display name, category, and relative path:
+
+```json
+[
+    {
+        "name": "React",
+        "category": "development",
+        "path": "development/react.svg"
+    }
+]
+```
+
+Import it to build logo pickers, documentation pages, or any UI that needs to list available assets:
+
+```js
+import logos from "@karl-horning/scalable-logo-library/logos.json";
+
+const devLogos = logos.filter((logo) => logo.category === "development");
+```
+
+## Contributing
+
+To add a logo:
+
+1. Place the `.svg` file in the appropriate category directory.
+2. Regenerate the manifest:
+
+   ```bash
+   npm run build:manifest
+   ```
+
+3. If the filename does not title-case correctly, add a display name override to `NAME_OVERRIDES` in `scripts/generate-manifest.js`.
+4. Commit both the new file and the updated `logos.json`.
 
 ## Disclaimer
 
@@ -80,14 +95,6 @@ All third-party logos are the property of their respective owners. This reposito
 
 If you represent a brand and would like an asset removed or updated, please [open an issue](https://github.com/Karl-Horning/scalable-logo-library/issues).
 
----
-
 ## Licence
 
-MIT © 2025 Karl Horning
-
----
-
-## Author
-
-Made with ❤️ by [Karl Horning](https://github.com/Karl-Horning)
+MIT © 2025 [Karl Horning](https://github.com/Karl-Horning)
