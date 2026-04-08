@@ -1,0 +1,207 @@
+[
+    {
+        "name": "Bootstrap",
+        "category": "development",
+        "path": "development/bootstrap.svg"
+    },
+    {
+        "name": "CSS3",
+        "category": "development",
+        "path": "development/css3.svg"
+    },
+    {
+        "name": "Docker",
+        "category": "development",
+        "path": "development/docker.svg"
+    },
+    {
+        "name": "Electron",
+        "category": "development",
+        "path": "development/electron.svg"
+    },
+    {
+        "name": "Ellucian",
+        "category": "development",
+        "path": "development/ellucian.svg"
+    },
+    {
+        "name": "Git",
+        "category": "development",
+        "path": "development/git.svg"
+    },
+    {
+        "name": "GitHub (Mark, White)",
+        "category": "development",
+        "path": "development/github-mark-white.svg"
+    },
+    {
+        "name": "GitHub (Mark)",
+        "category": "development",
+        "path": "development/github-mark.svg"
+    },
+    {
+        "name": "GitHub (White)",
+        "category": "development",
+        "path": "development/github-white.svg"
+    },
+    {
+        "name": "GitHub",
+        "category": "development",
+        "path": "development/github.svg"
+    },
+    {
+        "name": "GraphQL",
+        "category": "development",
+        "path": "development/graphql.svg"
+    },
+    {
+        "name": "HTML5",
+        "category": "development",
+        "path": "development/html5.svg"
+    },
+    {
+        "name": "JavaScript",
+        "category": "development",
+        "path": "development/javascript.svg"
+    },
+    {
+        "name": "Markdown",
+        "category": "development",
+        "path": "development/markdown.svg"
+    },
+    {
+        "name": "MongoDB",
+        "category": "development",
+        "path": "development/mongodb.svg"
+    },
+    {
+        "name": "Next.js",
+        "category": "development",
+        "path": "development/nextjs.svg"
+    },
+    {
+        "name": "Node.js",
+        "category": "development",
+        "path": "development/nodejs.svg"
+    },
+    {
+        "name": "npm",
+        "category": "development",
+        "path": "development/npm.svg"
+    },
+    {
+        "name": "PostgreSQL",
+        "category": "development",
+        "path": "development/postgresql.svg"
+    },
+    {
+        "name": "Postman",
+        "category": "development",
+        "path": "development/postman.svg"
+    },
+    {
+        "name": "Prettier",
+        "category": "development",
+        "path": "development/prettier.svg"
+    },
+    {
+        "name": "React",
+        "category": "development",
+        "path": "development/react.svg"
+    },
+    {
+        "name": "Tailwind CSS (Mark)",
+        "category": "development",
+        "path": "development/tailwindcss-mark.svg"
+    },
+    {
+        "name": "Tailwind CSS",
+        "category": "development",
+        "path": "development/tailwindcss.svg"
+    },
+    {
+        "name": "TypeScript",
+        "category": "development",
+        "path": "development/typescript.svg"
+    },
+    {
+        "name": "Visual Studio Code",
+        "category": "development",
+        "path": "development/visual-studio-code.svg"
+    },
+    {
+        "name": "Vite",
+        "category": "development",
+        "path": "development/vite.svg"
+    },
+    {
+        "name": "SITS Vision",
+        "category": "educational-tools",
+        "path": "educational-tools/sits-vision.svg"
+    },
+    {
+        "name": "Turnitin",
+        "category": "educational-tools",
+        "path": "educational-tools/turnitin.svg"
+    },
+    {
+        "name": "Blackboard Learn",
+        "category": "lms",
+        "path": "lms/blackboard-learn.svg"
+    },
+    {
+        "name": "Blackboard",
+        "category": "lms",
+        "path": "lms/blackboard.svg"
+    },
+    {
+        "name": "Brightspace",
+        "category": "lms",
+        "path": "lms/brightspace.svg"
+    },
+    {
+        "name": "Canvas",
+        "category": "lms",
+        "path": "lms/canvas.svg"
+    },
+    {
+        "name": "Moodle",
+        "category": "lms",
+        "path": "lms/moodle.svg"
+    },
+    {
+        "name": "CodePen",
+        "category": "sites",
+        "path": "sites/codepen.svg"
+    },
+    {
+        "name": "Affinity Designer 2",
+        "category": "software",
+        "path": "software/affinity-designer-2.svg"
+    },
+    {
+        "name": "Cambridge",
+        "category": "universities",
+        "path": "universities/cambridge.svg"
+    },
+    {
+        "name": "City, St George's",
+        "category": "universities",
+        "path": "universities/city-st-georges.svg"
+    },
+    {
+        "name": "Imperial College London",
+        "category": "universities",
+        "path": "universities/imperial-college-london.svg"
+    },
+    {
+        "name": "Kingston University",
+        "category": "universities",
+        "path": "universities/kingston-university.svg"
+    },
+    {
+        "name": "University of Roehampton",
+        "category": "universities",
+        "path": "universities/university-of-roehampton.svg"
+    }
+]
