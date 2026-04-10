@@ -2,7 +2,7 @@
 
 A library of SVG logos covering web development tools, learning management systems, and UK higher education institutions. Maintained for personal use across portfolio and development projects, and open to anyone in the edtech space who needs the same assets.
 
-All assets are SVG-only for resolution-independent rendering and easy CSS styling. The package ships `logos.json` — a machine-readable index — so consuming projects can query available logos without hardcoding paths.
+All assets are SVG-only for resolution-independent rendering and easy CSS styling. The package ships `logos.json` — a machine-readable index — so your project can query available logos without hardcoding paths.
 
 ## Project structure
 
@@ -37,14 +37,18 @@ git submodule add https://github.com/Karl-Horning/scalable-logo-library.git asse
 import reactLogo from "@karl-horning/scalable-logo-library/development/react.svg";
 ```
 
-Note: bundlers require SVG import support. Vite handles this out of the box; for webpack, configure `asset/resource` or use `@svgr/webpack`.
+Note: bundlers require SVG import support. Vite supports SVG imports by default; for webpack, configure `asset/resource` or use `@svgr/webpack`.
 
-### CSS
+### Background image (via JS import)
 
-```css
-.react-icon {
-    background-image: url("node_modules/@karl-horning/scalable-logo-library/development/react.svg");
-}
+```js
+// Vite
+import reactLogo from "@karl-horning/scalable-logo-library/development/react.svg?url";
+
+// webpack (asset/resource)
+import reactLogo from "@karl-horning/scalable-logo-library/development/react.svg";
+
+document.querySelector(".react-icon").style.backgroundImage = `url(${reactLogo})`;
 ```
 
 ### HTML (submodule)
@@ -67,7 +71,7 @@ Note: bundlers require SVG import support. Vite handles this out of the box; for
 ]
 ```
 
-Import it to build logo pickers, documentation pages, or any UI that needs to list available assets:
+Import it to list available logos:
 
 ```js
 import logos from "@karl-horning/scalable-logo-library/logos.json";
@@ -89,11 +93,13 @@ To add a logo:
 3. If the filename does not title-case correctly, add a display name override to `NAME_OVERRIDES` in `scripts/generate-manifest.js`.
 4. Commit both the new file and the updated `logos.json`.
 
+To report a bug or ask a question, [open an issue](https://github.com/Karl-Horning/scalable-logo-library/issues).
+
 ## Disclaimer
 
 All third-party logos are the property of their respective owners. This repository is maintained for personal and educational use only.
 
-If you represent a brand and would like an asset removed or updated, please [open an issue](https://github.com/Karl-Horning/scalable-logo-library/issues).
+If you represent a brand and would like an asset removed or updated, [open an issue](https://github.com/Karl-Horning/scalable-logo-library/issues).
 
 ## Licence
 
