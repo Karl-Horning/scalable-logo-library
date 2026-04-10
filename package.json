@@ -1,7 +1,7 @@
 {
     "name": "@karl-horning/scalable-logo-library",
     "version": "1.0.0",
-    "description": "A collection of high-quality SVG logos for reuse across projects",
+    "description": "SVG logos for web development tools, LMS platforms, and UK universities",
     "files": [
         "development",
         "educational-tools",
@@ -11,6 +11,7 @@
         "universities",
         "logos.json"
     ],
+    "type": "module",
     "scripts": {
         "build:manifest": "node scripts/generate-manifest.js"
     },
@@ -23,7 +24,17 @@
         "universities",
         "lms"
     ],
+    "author": "Karl Horning (https://github.com/Karl-Horning)",
     "license": "MIT",
+    "exports": {
+        "./logos.json": "./logos.json",
+        "./development/*.svg": "./development/*.svg",
+        "./educational-tools/*.svg": "./educational-tools/*.svg",
+        "./lms/*.svg": "./lms/*.svg",
+        "./sites/*.svg": "./sites/*.svg",
+        "./software/*.svg": "./software/*.svg",
+        "./universities/*.svg": "./universities/*.svg"
+    },
     "repository": {
         "type": "git",
         "url": "https://github.com/Karl-Horning/scalable-logo-library.git"
