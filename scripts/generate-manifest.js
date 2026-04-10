@@ -10,8 +10,11 @@
  * ```
  */
 
-const fs = require("fs");
-const path = require("path");
+import fs from "fs";
+import path from "path";
+import { fileURLToPath } from "url";
+
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 /** Absolute path to the repository root. */
 const ROOT = path.resolve(__dirname, "..");
@@ -38,7 +41,7 @@ const CATEGORIES = [
  * human-readable display names. Entries without an override fall back to
  * `toTitleCase`.
  *
- * @type {!Object<string, string>}
+ * @type {Record<string, string>}
  */
 const NAME_OVERRIDES = {
     "affinity-designer-2": "Affinity Designer 2",
