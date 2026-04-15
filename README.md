@@ -101,6 +101,6 @@ All third-party logos are the property of their respective owners. This reposito
 
 If you represent a brand and would like an asset removed or updated, [open an issue](https://github.com/Karl-Horning/scalable-logo-library/issues).
 
-## Licence
+## License
 
-MIT © 2025 [Karl Horning](https://github.com/Karl-Horning)
+Released under the [MIT License](./LICENSE) by [Karl Horning](https://github.com/Karl-Horning).
